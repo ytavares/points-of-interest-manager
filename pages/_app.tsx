@@ -11,6 +11,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <title>Map</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />

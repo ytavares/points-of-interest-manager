@@ -5,7 +5,7 @@ export const GlobalStyles = createGlobalStyle`
 	body {
 		padding: 0;
 		margin: 0 auto;
-		font-family: 'Bai Jamjuree', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		background: #141416;
 	}
 
